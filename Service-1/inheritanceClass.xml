@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="inheritanceClass" id="29b712da-3004-4d64-8b98-31978b7791ed" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="29b712da-3004-4d64-8b98-31978b7791edfileName">inheritanceClass</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="c1e28251-3a36-4266-9801-3aeb66b06491" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="58c9e3cc-55bf-4877-8642-6c9d623c49a7" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="7e96de5f-67ac-45c9-8162-8595a7f40cc4" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+  <con:description>The test case generated for the REST resource [] located at [/testLong]</con:description>
+  <con:settings>
+    <con:setting id="7e96de5f-67ac-45c9-8162-8595a7f40cc4fileName">TestCase12</con:setting>
+  </con:settings>
+  <con:testStep type="restrequest" name="Request 1" id="3c3f513a-6417-4057-bd37-0fae4e1f4b12">
+    <con:settings/>
+    <con:config service="Service 1" resourcePath="/WCFREST/Service.svc/testLong" methodName="" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Request 1" id="7434beb9-ffab-4844-901c-bd0a52f16068" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
